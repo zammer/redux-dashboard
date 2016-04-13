@@ -1,0 +1,81 @@
+body.app {
+  padding: 60px 0 0;
+  background-color: #f2f2f2;
+}
+
+body.app div[class^="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.dashboard .row {
+  height: 100px;
+  margin-bottom: 9px;
+}
+
+.dashboard-column {
+  position: relative;
+}
+
+.dashboard-column-resizer {
+  width: 10px;
+  height: 10px;
+  background: red;
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  cursor: se-resize;
+}
+
+.dashboard-column-scaler {
+  height: 100%;
+  width: 100%;
+  opacity: .3;
+  border: 2px dashed #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.dashboard-cell {
+  background: #fff;
+  border: 1px solid #e2e2e2;
+  border-radius: 2px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.dashboard-cell-title {
+  border-bottom: 1px solid #d7d7d7;
+  color: #666;
+  font-size: 14px;
+  font-weight: 200;
+  padding: 7px 10px 4px;
+}
+
+.dashboard-cell-body {
+  overflow: hidden;
+  padding: 5px 10px;
+  position: relative;
+}
+
+.dashboard-line-item {
+  border-radius: 2px;
+  background-color: #00bbde;
+}
+
+.dashboard-line-item-value {
+  color: #fff;
+  font-size: 55px;
+  text-align: center;
+  padding: 15px;
+}
+
+.dashboard-line-item-text {
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  padding: 5px;
+  border-top: 1px solid #fff;
+}
